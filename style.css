@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+/* *Navbar */
+#navbar {
+  position: sticky;
+  top: 0;
+  height: 70px;
+  z-index: 10000;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #b75bc5, #460b61);
+  padding: 0;
+}
+
+.navbar-brand {
+  padding-left: 60px;
+}
+
+.navbar-brand img {
+  width: 60px;
+}
+
+.fa-bars {
+  color: white;
+  font-size: 30px;
+}
+
+/* *Banner */
+
+#banner {
+  background-image: linear-gradient(to right, #b75bc5, #460b61);
+  color: #fff;
+  padding-top: 5%;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.title::before {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 200px;
+  background-color: #7b1798;
+  margin: 0 auto !important;
+  transform: translateY(63px);
+}
+.title::after {
+  content: "";
+  display: block;
+  height: 10px;
+  width: 50px;
+  background-color: #7b1798;
+  margin: 0 auto;
+  transform: translateY(8px);
+}
+
+.btn {
+  width: 100px;
+  margin: 20px;
+}
+
+#banner a {
+  color: white;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+.wave-home-img {
+  width: 100%;
+  height: auto; 
+}
+
+/* *Services */
+#services {
+  margin: 80px 0;
+}
+
+.service-img {
+  width: 100px;
+}
+
+#services h4 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.service-btn {
+  background-image: linear-gradient(to right, #b75bc5, #460b61);
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: 8px 25px !important;
+  border-radius: 20px;
+  white-space:nowrap;
+  width: auto;
+  color: white;
+  transition: all 0.5s;
+}
+
+.service-btn:hover {
+    transform: scale(0.8);
+    color: white;
+}
+
+/* *About Us */
+
+#about-us {
+  padding: 55px 0 50px;
+  background-color: #f8f9fa;
+}
+
+#about-us ul li {
+  margin-top: 10px;
+}
+
+#about-us .title {
+  font-weight: bold;
+}
+
+
+#about-us h4 {                 
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.network-img{ width: 100%;}
+
+/* Students */
+#students {
+  margin: 100px 20px;
+}
+
+.students {
+  margin-top: 50px;
+  border-left: 5px solid #7b1798;
+  padding-left: 15px;
+}
+
+.student-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.user-details {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.user-info {
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+  margin-top: 10px;
+}
+
+/* *Social Media */
+#social-media {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+
+.social-icons {
+  font-size: 0;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  gap: 15px; 
+}
+
+.social-icons img {
+  width: 60px;
+  display: block;
+  transition: all 0.5s;
+}
+
+.social-icons a:hover img {
+  transform: translateY(-10px);
+}
+
+/* Footer */
+footer {
+  background-image: linear-gradient(to right, #b75bc5, #460b61);
+  color: white;
+}
+
+.footer-img {
+  width: 100% !important;
+}
+
+.footer-box {
+  padding: 20px;
+}
+
+.footer-box img {
+  width: 130px;
+  margin-bottom: 20px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.footer-box .icons {
+  margin-right: 10px;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  background: linear-gradient(to right, #460b61, #b75bc5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.footer-box .form-control {
+  max-width: 250px;
+  margin-top: 25px;
+}
+.footer-box .service-btn {
+  border-radius: 10px;
+}
+
+
